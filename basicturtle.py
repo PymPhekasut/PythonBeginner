@@ -12,7 +12,7 @@ def Rect(x,y,size=30, clr ='black'):
     tao.color(clr) #change color
     tao.pendown() #put pen down
     #-----------drawing sqaure--------
-    for i in range(4):
+    for i in range(4): #for loop
             tao.forward(size)
             tao.left(90)
     #---------------------------------
@@ -25,7 +25,7 @@ allcolor = ['red','green','blue','orange']
 
 count = int (input('what is square dimension?: ')) #user input
 
-for i in range(count):
+for i in range(count): #for loop 
     x = random.randint(-200,200)
     y = random.randint(-200,200)
     print(x,y)
